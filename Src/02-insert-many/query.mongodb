@@ -1,0 +1,26 @@
+// query.mongodb
+
+
+db.pet_store.insertMany([
+    {  name: "Dog Food", price: 100,tags: ['A', 'B', 'C']},
+    {  name: "Cat Food", price: 20,tags: ['A', 'B', 'C'] },
+    {  name: "Bird Seed", price: 120,tags: ['A', 'B', 'C'] },
+    {  name: "Fish Food", price: 120,tags: ['A', 'B', 'C'] },
+    {  name: "Rabbit Pellets", price: 25,tags: ['A', 'B', 'C'] },
+    {  name: "Turtle Treats", price: 15,tags: ['A', 'B', 'C'] },
+    {  name: "Hamster Mix", price: 18,tags: ['A', 'B', 'C']},
+    {  name: "Guinea Pig Hay", price: 30,tags: ['A', 'B', 'C'] },
+    {  name: "Snake Food", price: 80,tags: ['A', 'B', 'C']},
+    {  name: "Parrot Seed Mix", price: 40,tags: ['A', 'B', 'C'] },
+    {  name: "Lizard Crickets", price: 12,tags: ['A', 'B', 'C'] },
+    {  name: "Ferret Kibble", price: 35,tags: ['A', 'B', 'C'] },
+    {  name: "Horse Hay", price: 150,tags: ['A', 'B', 'C'] },
+    {  name: "Mouse Cheese Bites", price: 10,tags: ['A', 'B', 'C'] },
+    {  name: "Gerbil Sunflower Seeds", price: 22,tags: ['A', 'B', 'C'] },
+    {  name: "Iguana Greens", price: 28,tags: ['A', 'B', 'C'] },
+    {  name: "Goldfish Flakes", price: 8 ,tags: ['A', 'B', 'C']},
+    {  name: "Cockatiel Pellets", price: 25,tags: ['A', 'B', 'C'] },
+    {  name: "Hermit Crab Pellets", price: 15,tags: ['A', 'B', 'C'] },
+    {  name: "Chinchilla Dust Bath", price: 18,tags: ['A', 'B', 'C'] }
+  ]);
+  

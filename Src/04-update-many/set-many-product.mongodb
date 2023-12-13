@@ -1,0 +1,29 @@
+
+db.products.updateMany(
+    // query
+    { category: "Juguetes" },
+    // update - operators
+    {
+      $set: {
+        inventary: true
+      }
+    }
+ )
+ // Añadir el nuevo atributo a los productos de la categoría 
+db.pet_store.updateMany(
+    { category: "bananos" },
+    { $set: { newAttribute: "23" } }
+  );
+  
+  // Actualizar el valor del nuevo atributo para productos de la categoría "Dog Food"
+db.pet_store.updateMany(
+    { category: "bananos" },
+    { $set: { newAttribute: "32" } }
+  );
+  
+  // Cambiar el nombre del atributo de "description" a "specification" para productos de la categoría "Dog Food"
+db.pet_store.updateMany(
+    { category: "babanos flais" },
+    { $rename: { description: "specification" } }
+  );
+  
